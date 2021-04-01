@@ -1,0 +1,54 @@
+.div_each_product {
+	width: 23%;
+	height: 400px;
+	background: white;
+	margin: 20px 0 50px 20px;
+	float: left;
+	text-align: center;
+	border-radius: 10px;
+}
+.div_each_product img{
+	margin: 10px 0 20px 0;
+	border-radius: 5px;
+	width: 245px; 
+	height: 230px;
+}
+.div_each_product a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.div_each_product i {
+	font-size: 24px;
+	padding-top: 20px;
+}
+.div_each_product a:hover {
+	color: #A3CEF1;
+}
+.div_each_product .price{
+	color: red;
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+
+/* Đây là css phân trang */
+.div_phan_trang {
+	width: 70%;
+	height: 50px;
+	margin:30px 0 0 16%;
+	float: left;
+	text-align: center;
+}
+.div_phan_trang a {
+	color: black;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.div_phan_trang a.active {
+	background-color: #A3CEF1;
+	border-radius: 2px;
+}
+.div_phan_trang a:hover:not(.active) {
+	background-color: #ddd;
+	border-radius: 2px;
+}
