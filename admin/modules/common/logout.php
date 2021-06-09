@@ -1,4 +1,5 @@
 <?php 
-unset($_SESSION["admin"]);
+session_start();
+session_destroy();
 header("Location:index.php?module=common&action=login")
- ?>
+?>

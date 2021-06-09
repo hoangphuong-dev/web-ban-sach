@@ -58,6 +58,7 @@ require_once("layout/header.php");
 require_once("layout/menu_ngang.php");
 ?>
 <title>Trang chủ</title>
+<link rel="shortcut icon" href="iconapp.ico">
 <div class="container"  style="height: 2150px;">
 	<?php require_once("layout/danh_muc_san_pham.php"); ?>
 	<div class="content" style="background: white">
